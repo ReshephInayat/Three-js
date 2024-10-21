@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js Example</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div>
+    <nav>
+      <img src="image.png" alt="" class="w-30 h-32 fixed top-4 left-4">
+    </nav>
+    <div class="w-full h-full overflow-hidden">
+      <img src="image.png" alt="" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mix-blend-lighten saturate-120 contrast-100">
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="w-full h-screen "></div>
+    <script type="module" src="main.js"></script>
+  </div>
+</body>
+</html>
